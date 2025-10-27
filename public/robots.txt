@@ -1,0 +1,9 @@
+User-agent: *
+Allow: /
+Disallow: /admin
+Disallow: /private
+
+User-agent: Mediapartners-Google
+Disallow:
+
+Sitemap: https://wehategluten.com/sitemap.xml

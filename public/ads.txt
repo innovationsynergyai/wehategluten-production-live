@@ -1,0 +1,16 @@
+google.com, pub-9619954322348082, DIRECT, f08c47fec0942fa0
+google.com, pub-9619954322348082, RESELLER, f08c47fec0942fa0
+googlesyndication.com, pub-9619954322348082, DIRECT, f08c47fec0942fa0
+
+# Recovery and health ad networks
+healthline.com, recovery-ads, RESELLER
+webmd.com, treatment-ads, RESELLER
+addiction.com, directory-ads, RESELLER
+
+# Premium ad exchanges
+openx.com, recovery-exchange, RESELLER
+pubmatic.com, treatment-network, RESELLER
+rubiconproject.com, healthcare-ads, RESELLER
+
+# Verification
+google.com, pub-9619954322348082, DIRECT, f08c47fec0942fa0
