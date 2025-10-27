@@ -168,7 +168,7 @@ function App() {
           </header>
 
         {/* Hero Section - Optimized for Conversions */}
-        <section className="relative bg-gradient-to-br from-stone-50 via-cream-50/30 to-blush-50/20 py-32 overflow-hidden">
+        <section className="relative bg-gradient-to-br from-stone-50 via-cream-50/30 to-blush-50/20 py-12 sm:py-20 md:py-32 overflow-hidden">
           <div className="absolute inset-0 bg-noise opacity-30"></div>
           <div className="max-w-7xl mx-auto px-6 lg:px-8 relative">
             <div className="text-center max-w-6xl mx-auto">
@@ -177,38 +177,38 @@ function App() {
                 <span className="text-pearl-600 font-light text-sm tracking-[0.02em]">500,000+ members • $2M+ in digital products sold</span>
               </div>
               
-              <h1 className="text-6xl md:text-8xl font-extralight text-pearl-800 mb-10 leading-[0.85] tracking-[-0.04em]">
+              <h1 className="text-4xl sm:text-6xl md:text-8xl font-extralight text-pearl-800 mb-8 md:mb-10 leading-tight md:leading-[0.85] tracking-[-0.02em] md:tracking-[-0.04em]">
                 Download <span className="font-light italic text-sage-500 relative">
                   Premium
                   <div className="absolute -bottom-2 left-0 right-0 h-px bg-gradient-to-r from-transparent via-sage-300 to-transparent"></div>
                 </span>
                 <br />
-                <span className="text-5xl md:text-7xl text-pearl-600">Gluten-Free Guides</span>
+                <span className="text-3xl sm:text-5xl md:text-7xl text-pearl-600">Gluten-Free Guides</span>
               </h1>
               
-              <p className="text-xl md:text-2xl text-pearl-500 mb-16 leading-relaxed max-w-4xl mx-auto font-light tracking-wide">
+              <p className="text-lg sm:text-xl md:text-2xl text-pearl-500 mb-8 sm:mb-12 md:mb-16 leading-relaxed max-w-4xl mx-auto font-light tracking-wide px-4">
                 Instant access to expert-created PDFs, courses, and meal plans. 
                 <br className="hidden md:block" />
                 Join the world's largest gluten-free digital library with 50,000+ downloads.
               </p>
               
-              <div className="flex flex-col sm:flex-row gap-6 justify-center mb-20">
+              <div className="flex flex-col sm:flex-row gap-4 sm:gap-6 justify-center mb-10 sm:mb-16 md:mb-20 px-4">
                 <button 
                   onClick={() => handlePurchaseClick('Premium Guide Bundle', '47')}
-                  className="group bg-gradient-to-r from-sage-400 to-sage-500 text-white px-12 py-5 rounded-full text-lg font-light hover:from-sage-500 hover:to-sage-600 transform hover:scale-105 transition-all duration-300 flex items-center justify-center shadow-2xl shadow-sage-200/40 hover:shadow-sage-300/50 tracking-wide"
+                  className="group bg-gradient-to-r from-sage-400 to-sage-500 text-white px-8 sm:px-12 py-4 sm:py-5 rounded-full text-base sm:text-lg font-light hover:from-sage-500 hover:to-sage-600 transform hover:scale-105 transition-all duration-300 flex items-center justify-center shadow-2xl shadow-sage-200/40 hover:shadow-sage-300/50 tracking-wide w-full sm:w-auto"
                 >
                   <Download className="mr-3 h-5 w-5" />
                   Get Instant Access - $47
                   <ArrowRight className="ml-3 h-5 w-5 group-hover:translate-x-1 transition-transform duration-300" />
                 </button>
-                <button className="group bg-white/80 backdrop-blur-sm text-pearl-700 border border-pearl-200/60 px-12 py-5 rounded-full text-lg font-light hover:bg-white hover:border-pearl-300 transform hover:scale-105 transition-all duration-300 flex items-center justify-center shadow-xl shadow-pearl-200/20 tracking-wide">
+                <button className="group bg-white/80 backdrop-blur-sm text-pearl-700 border border-pearl-200/60 px-8 sm:px-12 py-4 sm:py-5 rounded-full text-base sm:text-lg font-light hover:bg-white hover:border-pearl-300 transform hover:scale-105 transition-all duration-300 flex items-center justify-center shadow-xl shadow-pearl-200/20 tracking-wide w-full sm:w-auto">
                   Browse All Products
                   <ShoppingCart className="ml-3 h-5 w-5 group-hover:scale-110 transition-transform duration-300" />
                 </button>
               </div>
 
               {/* Revenue & Trust Indicators */}
-              <div className="grid grid-cols-2 md:grid-cols-4 gap-8 bg-white/60 backdrop-blur-xl rounded-3xl p-12 shadow-2xl shadow-pearl-200/20 border border-pearl-200/30">
+              <div className="grid grid-cols-2 md:grid-cols-4 gap-4 sm:gap-8 bg-white/60 backdrop-blur-xl rounded-2xl sm:rounded-3xl p-6 sm:p-12 shadow-2xl shadow-pearl-200/20 border border-pearl-200/30">
                 <div className="text-center group">
                   <div className="text-4xl font-extralight text-sage-500 mb-3 group-hover:scale-110 transition-transform duration-300">50K+</div>
                   <div className="text-pearl-500 font-light text-sm tracking-wide">Digital Downloads</div>
@@ -246,7 +246,7 @@ function App() {
         </div>
 
         {/* Revenue Optimization Section */}
-        <section className="py-32 bg-gradient-to-br from-sage-400 via-sage-500 to-sage-600 text-white relative overflow-hidden">
+        <section className="py-12 sm:py-20 md:py-32 bg-gradient-to-br from-sage-400 via-sage-500 to-sage-600 text-white relative overflow-hidden">
           <div className="absolute inset-0 bg-noise opacity-20"></div>
           <div className="max-w-7xl mx-auto px-6 lg:px-8 relative">
             <div className="text-center mb-20">
@@ -342,7 +342,7 @@ function App() {
         </div>
 
         {/* Premium Supplements Section */}
-        <section id="supplements" className="py-32 bg-gradient-to-br from-pearl-50 to-sage-50/20">
+        <section id="supplements" className="py-12 sm:py-20 md:py-32 bg-gradient-to-br from-pearl-50 to-sage-50/20">
           <div className="max-w-7xl mx-auto px-6 lg:px-8">
             <div className="text-center mb-20">
               <div className="inline-block bg-gradient-to-r from-blush-100 to-sage-100 rounded-full px-6 py-2 mb-6">
@@ -438,7 +438,7 @@ function App() {
         </section>
 
         {/* Community & Lead Magnet Section */}
-        <section id="community" className="py-32 bg-gradient-to-br from-sage-400 via-sage-500 to-sage-600 text-white relative overflow-hidden">
+        <section id="community" className="py-12 sm:py-20 md:py-32 bg-gradient-to-br from-sage-400 via-sage-500 to-sage-600 text-white relative overflow-hidden">
           <div className="absolute inset-0 bg-noise opacity-20"></div>
           <div className="max-w-7xl mx-auto px-6 lg:px-8 relative">
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
@@ -528,7 +528,7 @@ function App() {
         </section>
 
         {/* Social Proof & Testimonials */}
-        <section className="py-32 bg-gradient-to-b from-white to-pearl-50/30">
+        <section className="py-12 sm:py-20 md:py-32 bg-gradient-to-b from-white to-pearl-50/30">
           <div className="max-w-7xl mx-auto px-6 lg:px-8">
             <div className="text-center mb-20">
               <div className="inline-block bg-gradient-to-r from-blush-100 to-cream-100 rounded-full px-6 py-2 mb-6">
@@ -585,7 +585,7 @@ function App() {
         </section>
 
         {/* Footer with Social Media Integration */}
-        <footer className="bg-gradient-to-br from-pearl-800 via-pearl-900 to-stone-900 text-white py-20">
+        <footer className="bg-gradient-to-br from-pearl-800 via-pearl-900 to-stone-900 text-white py-12 sm:py-16 md:py-20">
           {/* Footer Ad */}
           <AdPlacement position="footer" className="max-w-7xl mx-auto px-6 lg:px-8 mb-8" />
           
