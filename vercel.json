@@ -1,6 +1,5 @@
 {
   "version": 2,
-  "name": "WEHATEGLUTEN_production_live",
   "builds": [
     {
       "src": "package.json",
